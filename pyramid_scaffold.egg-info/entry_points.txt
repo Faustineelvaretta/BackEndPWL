@@ -1,0 +1,5 @@
+[console_scripts]
+initialize_pyramid_scaffold_db = pyramid_scaffold.scripts.initialize_db:main
+
+[paste.app_factory]
+main = pyramid_scaffold:main
